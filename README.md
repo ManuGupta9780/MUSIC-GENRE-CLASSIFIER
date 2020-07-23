@@ -7,7 +7,7 @@ according to their genre. The deep learning approach is used wherein a CNN model
 
 # Dataset
 For this project we need a dataset of audio tracks having similar size and similar frequency range.
-We have used the GTZAN dataset from the [MARYSAS website](marsyas.info/downloads/datasets.html) .
+We have used the GTZAN dataset from the [MARYSAS website](http://marsyas.info/downloads/datasets.html) .
 The GTZAN genre collection dataset was collected in 2000-2001. It consists of 1000 audio files
 each having 30 seconds duration and 22050 Hz. There are 10 classes (10 music genres) each
 containing 100 audio tracks. Each track is in .wav format. It contains audio files of the following 10
