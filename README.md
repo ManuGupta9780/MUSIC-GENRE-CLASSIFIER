@@ -23,11 +23,20 @@ genres:
 • Reggae
 • Rock
 
+# TRAINING MODEL USING CNN:
+
+Using deep learning, we can achieve the task of music genre classification without the need
+for hand-crafted features. Convolutional neural networks (CNNs) have been widely used for
+the task of image classification. The 3-channel (RGB) matrix representation of an image is
+fed into a CNN which is trained to predict the image class. In this Project, the sound wave
+can be represented as a spectrogram, which in turn can be treated as an image. The task of the
+CNN is to use the spectrogram to predict the genre label (one of Ten classes).
+
 # Results
 
 The Music Genre Classifier produced quite satisfying results with accuracy of 72.67%.
 The following is the accuracy and error graph of our classifier model.
- 
+ ![Result](Results.png) 
  Achieved around 72.67% accuracy with test set.
 
 
